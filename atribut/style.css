@@ -1,0 +1,108 @@
+hr{
+  border: 1px solid blue;
+}
+
+hr.x{
+  border: 1px solid black;
+}
+
+header {
+    position: relative;
+    /*background-image: url("../img/bg.png");*/
+    min-height: 70vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+  	.hoverTable{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+	.hoverTable th{ 
+		padding:7px; border:#f5f5f8 1px solid;
+	}
+	/* Define the default color for all the table rows */
+	#tr{
+		background: #056305;
+	}
+	/* Define the hover highlight color for the table row */
+   #tr:hover {
+          background-color: #393885;
+    }
+
+  #d{
+    background: #093309;
+  }
+
+
+  #index{
+    border-bottom: 6px solid red;
+    border-left: 6px solid blue;
+    background-color: lightgrey;
+  } 
+
+  #spacing{
+    word-spacing: 40px;
+  }
+
+/*index.php*/
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 300px;
+      max-height: 300px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+
+
+/*form login*/
+  .login-form {
+      margin: 60px auto;
+  }
+    .login-form form {
+      margin-bottom: 15px;
+        background: #f7f7f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+    .login-form h2 {
+        margin: 0 0 15px;
+    }
+    .form-control, .btn {
+        min-height: 38px;
+        border-radius: 2px;
+    }
+    .btn {        
+        font-size: 15px;
+        font-weight: bold;
+    }
